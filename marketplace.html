@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>The Reposite</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	
+	<link href="css/flexslider.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <script type="text/javascript" src="//use.typekit.net/sfh2ksu.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+
+  <body id="non-home">
+
+	<!-- START HEADER -->
+	<div id="header" class="navbar-fixed-top">
+        <div class="container">
+          <ul class="header-nav">
+            <li class="chart"><a href="#">0 item ($0.0 in total)</a></li>
+              <!-- START ACCOUNT -->
+              <li class="account dropdown pull-right">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="account-img"><img src="images/author-1.jpg" class="rounded-img"></span>
+                    Jane Doe<b class="caret"></b>
+                 </a>
+                 <ul class="dropdown-menu">
+                   <li><a href="#" class="profile">Profile</a></li>
+                   <li><a href="#" class="setting">Setting</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#" class="product-listings">Product Listings</a></li>
+                   <li><a href="#" class="purchases">Purchases</a></li>
+                   <li><a href="#" class="sales">Sales</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#" class="credits">Credits</a></li>
+                   <li><a href="#" class="sign-out">Sign Out</a></li>
+                 </ul>
+              </li>
+              <!-- END ACCOUNT -->
+          </ul>
+
+          <!-- START LOGO -->
+          <h1 id="logo"><a href="#">The Reposite</a></h1>
+          <!-- END LOGO -->
+        </div>
+        
+          <!-- START HEADER SEARCH -->
+          <div class="header-search-bar">
+          <div class="container">
+          <div class="row">
+            <div class="col-xs-7 pull-left">
+              <ul class="main-nav">
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Arts</a></li>
+                <li><a href="#">Humanities</a></li>
+              </ul>
+            </div>
+          
+            <div class="search-bar col-xs-5 pull-right">
+              <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search documents / files">
+                <div id="dd" class="wrapper-custom-select-box file-type-options" tabindex="1">
+                <span>All files</span>
+                  <ul class="dropdown">
+                    <li>All files</li>
+                    <li>PDF</li>
+                    <li>DOC/DOCX</li>
+                    <li>XLS</li>
+                    <li>PPT</li>
+                    <li>XLS</li>
+                  </ul>
+                </div>
+                <div class="input-group-btn">
+                  <input type="submit" value="SEARCH" class="btn btn-default">
+                </div>
+              </div>
+              </form>
+            </div>
+          </div>
+          </div>
+          </div>
+          <!-- END HEADER SEARCH -->
+
+	</div>
+	<!-- END HEADER -->
+	
+	<!-- START LISTING -->    
+    <div class="home-listing">
+      <div class="container">
+
+        <!-- START SORT -->
+		<div class="sort pull-right">
+          <div class="listing-filter">
+            <div class="listing-filter-item label">Sort by</div>
+            <div class="listing-filter-item">
+                <div id="sort-by" class="wrapper-custom-select-box file-type-options" tabindex="1">
+                <span>Title</span>
+                  <ul class="dropdown">
+                    <li>Title</li>
+                    <li>File type</li>
+                    <li>Author</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="listing-filter-item">
+                <div id="sort-method" class="wrapper-custom-select-box file-type-options" tabindex="1">
+                <span>ASC</span>
+                  <ul class="dropdown">
+                    <li>ASC</li>
+                    <li>DESC</li>
+                  </ul>
+                </div>
+            </div>
+            <input type="submit" class="listing-filter-item submit">
+          </div>
+        </div>
+        <!-- END SORT -->
+		
+        <!-- START TABS NAV -->
+        <h2>All Humanities</h2>
+        <ul class="tabs container pull-left" id="tabs-horizontal">
+          <li><h2><a href="#popular">Popular</a></h2></li>
+          <li><h2><a href="#recent">Recent</a></h2></li>
+        </ul>
+        <!-- END TABS NAV -->
+
+        <!-- START TABS CONTENT -->
+        <div class="tab_container">
+          <div class="row">
+            <!-- START POPULAR LISTING -->
+            <div id="popular" class="tab_content">
+              <div class="listing-wrapper">
+                <ul class="listing">
+                
+                  <!-- START LISTING ITEM: Most updated block, follow this one as the template -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-pdf.png" width="36" height="50"><br>PDF</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <a href="#single-listing-page"><h3 class="listing-title">Lorem Ipsum: Neque Porro</h3></a>
+                        <h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> <a href="#author-profile-page">John Smith</a></span>
+                        <span class="meta-price">$12</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$12</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$25</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image-2.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$23</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+    			  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image-3.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$56</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$13</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-pdf.png" width="36" height="50"><br>PDF</span></span>
+                          <img src="images/listing-image-4.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$36</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-md-3 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-image-5.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$13</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image-2.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+            
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-pdf.png" width="36" height="50"><br>PDF</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-image-2.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                </ul>
+              </div>
+            </div>
+            <!-- END POPULAR LISTING -->
+            
+            <!-- START RECENT LISTING -->
+            <div id="recent" class="tab_content">
+              <div class="listing-wrapper">
+                <ul class="listing">
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-ppt.png" width="36" height="50"><br>PPT</span></span>
+                          <img src="images/listing-image-2.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+            
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-pdf.png" width="36" height="50"><br>PDF</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-xls.png" width="36" height="50"><br>XLS</span></span>
+                          <img src="images/listing-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image no-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-no-image.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                  
+                  <!-- START LISTING ITEM -->
+                  <li class="col-xs-6 col-sm-3">
+                    <div class="listing-item">
+                      <div class="listing-image">
+                        <a href="#">
+                          <span class="icon-overlay"><span class="icon"><img src="images/icon-word.png" width="36" height="50"><br>DOC</span></span>
+                          <img src="images/listing-image-2.jpg" width="252" height="142">
+                        </a>
+                      </div>
+                      <div class="listing-content">
+                        <h3 class="listing-title">Lorem Ipsum: Neque Porro</h3><h4 class="listing-description">Neque porro quisquam est qui dolorem ipsum quia dolor</h4>
+                        <span class="meta-author"><em>by</em> John Smith</span>
+                        <span class="meta-price">$15</span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END LISTING ITEM -->
+                </ul>
+              </div>
+            </div>
+            <!-- END RECENT LISTING -->
+          </div>
+        </div>
+        <!-- END TABS CONTENT -->
+      </div>
+    </div>
+	<!-- END LISTING -->
+
+	<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <h3 class="text-white">About The Reposite</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis purus ante, ultrices eu luctus id, auctor et metus. Aliquam dignissim consectetur odio, in auctor ante ultrices nec. Proin in sem mi. condimentum ligula, vel imperdiet metus. </p>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <h3 class="text-white">Marketplace Members</h3>
+            <p class="marketplace-num">3,404,601</p>
+            <h3 class="text-white">Total Marketplace Items</h3>
+            <p class="marketplace-num">4,838,776</p>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <h3 class="text-white">Help and Support</h3>
+            <ul class="list-nav">
+            	<li><a href="#">Knowledgebase</a></li>
+                <li><a href="#">Contact Support</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <h3 class="text-white">Join Our Newsletter</h3>
+            <form class="newsletter">
+              <label>Neque porro quisquam est qui dolorem</label>
+              <div class="group">
+                <input type="text" class="textbox" placeholder="Email Address">
+                <input type="submit" class="submit btn-background-blue">
+              </div>
+            </form>
+            <ul class="social">
+              <li><a href="#" class="facebook">facebook</a></li>
+              <li><a href="#" class="twitter">twitter</a></li>
+              <li><a href="#" class="pinterest">pinterest</a></li>
+              <li><a href="#" class="rss">rss</a></li>
+            </ul>
+          </div>
+        </div>
+          <div class="copyright">
+            <div class="fix pull-right"><a href="http://www.fixx.sg" target="_blank"><img src="images/fixx-logo.png" alt="Singapore Web Design"></a></div>
+            <ul class="footer-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Statement</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+            <span>&copy; 2014 The Reposite. All Rights Reserved.</span>
+          </div>
+      </div>
+	</footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.karmakandara.com/wp-content/themes/karmakandara/js/jquery.easing.min.js"></script>
+
+	<script src="js/jquery.flexslider.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#index-slider').flexslider({
+      animation: "fade",      
+      slideshowSpeed: 3500,      
+      animationDuration: 500,        
+      pauseOnHover: true,   
+      smoothHeight: false,
+	  directionNav: false
+    });
+    $('.selectpicker').selectpicker();
+  });
+  </script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
